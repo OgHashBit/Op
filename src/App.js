@@ -1,7 +1,8 @@
+import * as THREE from "three"
 import React, { Suspense } from "react";
 import "./styles.css";
 import styled from "styled-components";
-
+import state from "./store.js";
 import Background from "./components/Background";
 import TextSection from "./components/TextSection";
 import Box from "./components/Box";
